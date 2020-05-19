@@ -1,0 +1,32 @@
+1. Start pycharm, go to your project(already existing).
+2. In project interpreter select conda environment
+     >conda activate universal (env name)
+3. to install any package go to teminal in pycharm 
+    >> conda install -c conda -forge packagename (search google) or where in anacond website for the package.
+4. create a new env in python 
+   conda create -n envname python=3.7
+
+5. view packages 
+   conda list
+
+6. deactivate the current conda env
+   conda deactivate
+   
+Note : #packages not want to install.install first 7 packages only
+
+numpy
+scikit-learn
+pandas
+matplotlib
+jupyter
+mysql-connector
+mysqlclient
+
+#nltk
+#seaborn
+#pillow
+#pymysql
+#textblob
+#cv2     pip3 install opencv-python
+#pygame 
+#scikit-surprise
